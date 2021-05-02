@@ -1,0 +1,46 @@
+.seven {
+  position: relative;
+  width: 100%;
+  top: 750px;
+  height: 100px;
+  background-color: #fff;
+}
+.container {
+  position: relative;
+  left: 2%;
+  max-width: 1050px;
+  margin: 700px auto;
+  padding-bottom: 20px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #ff8159;
+  font-size: 12px;
+  background-color: #000;
+  border-radius: 20px;
+}
+
+.slick-prev:before {
+  position: absolute;
+  top: -5px;
+  left: -65px;
+}
+.slick-next:before {
+  position: absolute;
+  top: -5px;
+}
+
+.carousel-img1 {
+  margin-top: 10px;
+}
+
+.carousel-img2 {
+  margin-top: -10px;
+  margin-left: 40px;
+}
+
+.carousel-img4 {
+  margin-top: -10px;
+  margin-left: 40px;
+}

@@ -1,0 +1,117 @@
+.photo1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  &__image {
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+  }
+  &__name {
+    position: absolute;
+    top: 600px;
+    left: 890px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 4px 4px black;
+  }
+}
+
+.rest__photo {
+  // display: none;
+  position: absolute;
+  top: -206px;
+  left: -15.2%;
+  width: 155vw;
+  height: 1331px;
+  z-index: -100;
+  opacity: 0;
+}
+
+.tiles {
+  position: absolute;
+  top: 1030px;
+  left: 66.9%;
+}
+.tiles span {
+  display: inline-block;
+  background-color: #fff;
+  margin: 0 4px;
+  width: 42px;
+  height: 15px;
+}
+
+.tiles span.active {
+  background-color: #04395f;
+}
+.about {
+  position: absolute;
+  font-size: 25px;
+  left: 60%;
+  top: 80%;
+}
+
+.bottomBar {
+  position: relative;
+  top: 950px;
+  left: 22.3%;
+  width: 890px;
+  height: 60px;
+  margin: 0 4px;
+  background-color: white;
+
+  &__name {
+    position: absolute;
+    top: 18px;
+    left: 110px;
+    font-size: 22px;
+    color: #04395f;
+  }
+  &__save {
+    position: absolute;
+    top: 15px;
+    left: 520px;
+    width: 350px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    border: 1px solid gray;
+  }
+}
+
+.fa-newspaper {
+  position: absolute;
+  top: 2px;
+  left: 28px;
+  font-size: 54px;
+  color: #04395f;
+}
+
+.bottomBar__btn1 {
+  position: absolute;
+  width: 150px;
+  height: 60px;
+  top: 1060px;
+  left: 1330px;
+  font-size: 22px;
+  border-style: none;
+  color: #04395f;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .sectionOne__banner {
+    height: 250px;
+  }
+
+  .photo1__image {
+    background-image: url(/img/11.jpg);
+    height: 250px;
+  }
+}

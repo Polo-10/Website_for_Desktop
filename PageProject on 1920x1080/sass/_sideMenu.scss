@@ -1,0 +1,102 @@
+.container__side {
+  position: relative;
+  z-index: 999;
+  height: 100%;
+  top: 0;
+  left: -185px;
+  position: fixed;
+  justify-content: center;
+  box-shadow: -2px 0px 15px #04395f;
+  transition: 0.3s linear;
+  user-select: none;
+  background-color: white;
+  &__left {
+    margin-top: 140px;
+    margin-left: 40px;
+  }
+  &__left__menu {
+    width: 170px;
+    line-height: 200%;
+    border-radius: 6px;
+    display: block;
+    left: 200px;
+  }
+  &__left__menu__list {
+    list-style-type: none;
+    padding: 5px;
+    display: block;
+  }
+  &__left__menu__list__item {
+    text-align: left;
+    display: block;
+  }
+  &__left__menu__list__item__link {
+    padding: 2px;
+    text-decoration: none;
+    color: #183153;
+    display: block;
+    transition: 0.2s;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+.dotted {
+  width: 70px;
+  margin-left: 2px;
+  margin-top: 10px;
+  padding: 5px;
+  height: 5px;
+  border-top: 1px dotted black;
+}
+
+.side__active {
+  z-index: 999;
+  position: fixed;
+  font-size: 20px;
+  padding: 10px;
+  top: 450px;
+  left: 0;
+  user-select: none;
+  transition: 0.3s linear;
+  cursor: pointer;
+  &:hover {
+    font-size: 25px;
+  }
+
+  &.on {
+    position: fixed;
+    transform: rotate(180deg);
+    top: 450px;
+    left: 10%;
+  }
+}
+
+.container__side.on {
+  left: 2px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container__side {
+    left: -103px;
+    width: 110px;
+    height: 1116px;
+  }
+  .container__side__left__menu {
+    width: 120px;
+    line-height: 200%;
+    border-radius: 6px;
+    left: 100px;
+  }
+
+  .container__side__left {
+    margin-left: 2px;
+  }
+  .container__side__left__menu__list__item__link {
+    font-size: 14px;
+  }
+  .side__active {
+    left: -0.8%;
+    font-size: 16;
+  }
+}

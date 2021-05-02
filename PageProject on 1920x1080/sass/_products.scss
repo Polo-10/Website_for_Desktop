@@ -1,0 +1,109 @@
+.three {
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  top: 976px;
+  height: 1100px;
+  z-index: -100;
+
+  &__title {
+    position: relative;
+    color: #04395f;
+    padding-top: 15px;
+  }
+  &__title__text {
+    position: absolute;
+    left: 47%;
+    margin: 28px 0px 0px 30px;
+    font-size: 35px;
+  }
+  &__products {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    // width: 1052px;
+  }
+  &__products__shape {
+    position: relative;
+    flex-basis: 20%;
+    top: 350px;
+    left: 8px;
+    color: white;
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+}
+
+.three__products__description {
+  position: relative;
+  flex-basis: 50%;
+  top: 50px;
+  left: 35px;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.text_products {
+  position: absolute;
+  text-align: justify;
+  overflow-wrap: break-word;
+  padding: 45px;
+}
+
+.three__products__shape__square {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #04395f;
+  transition: 0.3s;
+  &:hover {
+    font-size: 22px;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}
+.text_whell {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.whell_description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.text_products {
+  position: absolute;
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: justify;
+  left: -14%;
+  flex-basis: 50%;
+  color: #04395f;
+}
+
+.fa-folder-open {
+  position: absolute;
+  left: 44.5%;
+  padding: 30px;
+  font-size: 35px;
+  color: #04395f;
+}
+
+.dotted_products {
+  position: absolute;
+  width: 1050px;
+  height: 55px;
+  margin-top: 140px;
+  margin-left: 429px;
+  border-top: 2px dotted #04395f;
+}

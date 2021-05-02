@@ -1,0 +1,107 @@
+.four {
+  position: relative;
+  background-color: #04395f;
+  width: 100%;
+  top: 976px;
+  height: 1250px;
+  z-index: -100;
+
+  &__title {
+    position: relative;
+    padding-top: 25px;
+  }
+  &__title__text {
+    position: absolute;
+    left: 47%;
+    margin: 28px 0px 0px 30px;
+    font-size: 35px;
+    color: #fff;
+  }
+  &__services {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+}
+
+.fa-tools {
+  position: absolute;
+  left: 44.5%;
+  padding: 30px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.dotted_services {
+  position: absolute;
+  width: 1050px;
+  height: 55px;
+  margin-top: 140px;
+  margin-left: 429px;
+  border-top: 2px dotted white;
+}
+
+.four__products__services {
+  position: relative;
+  flex-basis: 50%;
+  top: 100px;
+  left: 215px;
+  color: white;
+  margin: 0 0 50px 0;
+  font-size: 80px;
+  cursor: pointer;
+}
+
+.four__icon {
+  position: relative;
+  flex-basis: 51%;
+  top: 100px;
+  left: 175px;
+  color: white;
+  margin: 100px 0px 150px 0px;
+  font-size: 80px;
+  cursor: pointer;
+}
+
+.icons3 {
+  position: absolute;
+  top: -20px;
+  left: 60px;
+}
+
+.icons_description3 {
+  position: absolute;
+  top: 100px;
+  font-size: 18px;
+  top: 70px;
+  left: 56px;
+  transition: 0.3s;
+  &:hover {
+    border-bottom: 2px solid white;
+  }
+}
+
+.icons_description {
+  font-size: 18px;
+  position: absolute;
+  top: 105%;
+  left: -50px;
+  padding: 2px;
+  &:hover {
+    border-bottom: 2px solid white;
+  }
+}
+
+.text_services {
+  width: 700px;
+  position: absolute;
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: justify;
+  left: -57%;
+  flex-basis: 50%;
+  padding: 100px;
+}

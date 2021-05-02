@@ -1,0 +1,171 @@
+.two {
+  position: relative;
+  background-color: #04395f;
+  width: 100%;
+  top: 976px;
+  height: 1100px;
+  z-index: -100;
+
+  &__title {
+    position: relative;
+    color: white;
+    padding-top: 15px;
+  }
+  &__title__text {
+    position: absolute;
+    left: 47%;
+    margin: 28px 0px 0px 30px;
+    font-size: 30px;
+  }
+  &__industries {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    // width: 1052px;
+  }
+  &__industries__photo {
+    position: relative;
+    flex-basis: 26%;
+    top: 50px;
+    left: 8px;
+    color: white;
+  }
+
+  &__industries__photo__img {
+    position: relative;
+    padding-left: 0px;
+    width: 330px;
+    height: 180px;
+    // padding: 10px;
+    margin: 20px 20px 0px 0px;
+    -webkit-filter: brightness(0.4);
+    -moz-filter: brightness(0.4);
+    -o-filter: brightness(0.4);
+    -ms-filter: brightness(0.4);
+    filter: brightness(0.4);
+    animation: displacement 2s linear infinite;
+    animation-direction: alternate;
+  }
+}
+
+.inscription {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.description__industries {
+  position: absolute;
+  width: 330px;
+  height: 180px;
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: justify;
+  left: -14%;
+}
+
+.fa-cog {
+  position: absolute;
+  left: 44.5%;
+  padding: 30px;
+  font-size: 30px;
+  animation: rotation 2s linear infinite;
+}
+
+.dotted_industries {
+  position: absolute;
+  width: 1050px;
+  height: 55px;
+  margin-top: 140px;
+  margin-left: 429px;
+  border-top: 2px dotted white;
+}
+
+@keyframes rotation {
+  /* 0% {
+        
+    } */
+
+  20% {
+    transform: rotate(45deg);
+  }
+
+  50% {
+    transform: rotate(90deg);
+  }
+
+  80% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes displacement {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1.01);
+  }
+
+  50% {
+    transform: scale(1.02);
+  }
+
+  80% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1.04);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .fa-cog {
+    top: 120%;
+    left: 20.5%;
+  }
+  .two__title__text {
+    left: 35%;
+  }
+
+  .dotted_industries {
+    width: 1050px;
+    height: 55px;
+    margin-top: 140px;
+    margin-left: 29px;
+  }
+
+  .two__industries__photo {
+    position: relative;
+    flex-basis: 26%;
+    top: 50px;
+    left: 8px;
+    color: white;
+  }
+
+  .two__industries__photo__img {
+    position: relative;
+    padding-left: 0px;
+    width: 130px;
+    height: 100px;
+    margin: 20px 20px 0px 0px;
+    -webkit-filter: brightness(0.4);
+    -moz-filter: brightness(0.4);
+    -o-filter: brightness(0.4);
+    -ms-filter: brightness(0.4);
+    filter: brightness(0.4);
+    animation: displacement 2s linear infinite;
+    animation-direction: alternate;
+  }
+}

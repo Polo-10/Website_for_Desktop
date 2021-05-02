@@ -1,0 +1,241 @@
+.six {
+  position: relative;
+  background-color: #04395f;
+  width: 100%;
+  top: 750px;
+  height: 1300px;
+  z-index: -100;
+
+  &__title {
+    position: relative;
+    padding-top: 25px;
+  }
+  &__title__text {
+    position: absolute;
+    left: 47%;
+    margin: 28px 0px 0px 30px;
+    font-size: 35px;
+    color: #fff;
+  }
+  &__contact {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+}
+
+.fa-user {
+  font-size: 50px;
+  position: absolute;
+  left: 44.5%;
+  padding: 30px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.dotted_contact {
+  position: absolute;
+  width: 1050px;
+  height: 55px;
+  margin-top: 140px;
+  margin-left: 429px;
+  border-top: 2px dotted white;
+}
+
+.six__contact__description {
+  position: relative;
+  flex-basis: 1%;
+  top: 50px;
+  left: 5px;
+  padding-right: 70px;
+}
+
+.contact_description {
+  margin: 50px 0 0 0;
+  color: #fff;
+  width: 280px;
+  text-align: justify;
+  font-size: 20px;
+}
+.six__contact__description:nth-child(3) {
+  left: 55px;
+}
+
+.dotted2_contact {
+  position: absolute;
+  width: 1050px;
+  height: 55px;
+  margin-top: 440px;
+  border-top: 2px dotted white;
+}
+
+.input_contact {
+  position: absolute;
+  width: 1050px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  height: 180px;
+  margin-top: 550px;
+  margin-left: -570px;
+}
+
+.flex-element {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.text-contact {
+  color: white;
+  font-size: 25px;
+  margin-left: 330px;
+  margin-bottom: 0px;
+}
+
+.title_contact {
+  margin-bottom: 30px;
+}
+
+.contents_contact {
+  position: absolute;
+  top: 225px;
+  width: 480px;
+  height: 120px;
+}
+
+.option {
+  position: absolute;
+  top: 360px;
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.option1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 410px;
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.option11 {
+  position: absolute;
+  top: 410px;
+  left: 40px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.option2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 410px;
+  left: 180px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.option22 {
+  position: absolute;
+  top: 410px;
+  left: 210px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.send {
+  position: absolute;
+  width: 130px;
+  height: 70px;
+  top: 910px;
+  left: 350px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    font-size: 20px;
+  }
+}
+
+.media {
+  position: absolute;
+  width: 1050px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 550px;
+  margin-left: 1070px;
+}
+
+.text-media {
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  margin-top: -455px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.flex-icon {
+  top: 200px;
+  font-size: 65px;
+  color: white;
+  padding: 19.5px;
+  margin-top: 10px;
+  margin-left: 70px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  &:hover {
+    color: #006699;
+  }
+}
+
+.six__contact__description2 {
+  position: relative;
+  flex-basis: 1%;
+  top: 195px;
+  left: 395px;
+}
+
+.text-work {
+  color: white;
+  font-size: 22px;
+  margin-top: 48.5px;
+}
+
+.contact_description2 {
+  margin: 50px 0 0 0;
+  color: #fff;
+  width: 240px;
+  font-size: 20px;
+}
+
+.dotted3_contact {
+  position: absolute;
+  width: 1050px;
+  height: 50px;
+  margin-top: 1050px;
+  border-top: 2px dotted white;
+}
+
+.topPage {
+  position: absolute;
+  top: 1065px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    border-bottom: 2px solid white;
+  }
+}
